@@ -1,13 +1,14 @@
 public class Person {
 
     private double height;
-
+    private int age;
     public Person(){
 
     }
 
-    public Person(double height){
+    public Person(int age, double height){
         this.height = height;
+        this.age = age;
     }
 
     public double getHeight(){
@@ -19,6 +20,9 @@ public class Person {
     }
 
     public void hasBirthday(){
+    }
 
+    public int getAge(){
+        return age;
     }
 }
